@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 2px;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 400;
+    padding-bottom: 12px;
+    padding top: 12px;
+}
+
+.nav-logo{
+    height: 18px;
+    width: 48px;
+}
+
+.logo{
+    background-image: url("pratilipi_logo.png");
+    color: white;
+    background-size:cover;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.pratilipi {
+    height: auto;
+    width: auto;
+    color: rgb(211, 47, 47);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.english {
+    height: auto;
+    width: auto;
+    color: black;
+    cursor: pointer;
+    border: 3px solid red;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-search {
+    width: 320px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background-color:rgba(251, 247, 247, 0.837);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+.search-input {
+    width:200px;
+    background-color:rgba(251, 247, 247, 0.837);
+    border: none;
+    border-radius: 5px;
+}
+
+.notification {
+    font-size: x-large;
+    height: 15px;
+    width: 15px;
+    color:rgb(9, 9, 9);
+    margin-right: 300px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+i:hover {
+    color: green;
+}
+
+.border {
+    padding-left: 25px;
+}
+
+.icon {
+   font-size: 17px;
+   font-weight: 700;
+    padding: 10px;
+}
+
+.story-section {
+    width: 100%;
+    background-color:rgba(251, 247, 247, 0.837);
+   padding: 30px;
+}
+
+.p1 {
+    font-size: 40px;
+    line-height: 28px;
+    font-weight:700;
+    color:black ;
+    width: 500px;
+}
+
+.p2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(110, 109, 109);
+    width:300px;
+    padding-top: 10px;
+}
+
+.top {
+    height: 28px;
+    color: black;
+    font-size:35px ;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+.img-section {
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgba(251, 247, 247, 0.837);
+}
+
+.box {
+    height: 300px;
+    width: 12%;
+    margin-left: 10px;
+}
+
+
+.box-img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 8px;
+    flex-wrap: nowrap;
+    display: block;
+}
+
+.info {
+    color: rgb(110, 109, 109);
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color:rgba(251, 247, 247, 0.837);
+}
+
+.cover-page {
+    height: 350px;
+    width: 790px;
+    margin-left: 54px;
+    margin-right: 54px;
+    padding-bottom: 20px;
+}
+
+.separation{
+    height: 0.01px;
+    background-color: rgb(230, 228, 228);
+}
+
+
+.panel1 {
+    background-color:rgba(251, 247, 247, 0.837);
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.panel2 {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(16, 15, 15);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.img1, .img2 {
+    margin-top: 15px;
+    height: 38px;
+    width: 128px;
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+.information {
+    font-size:15px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
